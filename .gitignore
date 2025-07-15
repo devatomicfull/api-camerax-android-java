@@ -1,0 +1,58 @@
+# Diretórios de build e dependências
+.gradle/
+.idea/
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Arquivos de configuração locais
+local.properties
+*.keystore
+*.jks
+*.pem
+*.p12
+
+# Cache e arquivos temporários
+*.iml
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.native_cache
+
+# Arquivos específicos do Android Studio
+/.idea/*
+!.idea/codeStyles
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# Cache de lint e outros
+lint/intermediates/
+lint/generated/
+
+# Arquivos de build do Gradle
+*/build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Arquivos de crash reports e diagnósticos
+crashlytics-build.properties
+firebase/
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+Icon?
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Arquivos de pacotes
+*.apk
+*.ap_
+*.aab
